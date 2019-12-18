@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:model1="clr-namespace:CollectionView.repro1.Model;assembly=CollectionView.repro"
+             mc:Ignorable="d"
+             x:Class="CollectionView.repro1.MainPage">
+
+    <StackLayout Margin="32">
+        <Label Text="My Collection:" 
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+        <CollectionView x:Name="MyCollectionView" 
+                        BackgroundColor="Azure"
+                        SelectionMode="None">
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical"></GridItemsLayout>
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model1:Item">
+                    <StackLayout>
+                        <Label Text="{Binding Name}"></Label>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Entry x:Name="MyEntry"
+               Placeholder="Add item to observable collection"
+               WidthRequest="280"
+               HorizontalOptions="Center">
+        </Entry>
+
+        <Button Text="Add"
+                Clicked="Button_OnClicked"
+                HorizontalOptions="Center">
+        </Button>
+
+        <Button Text="Goto Second Page"
+                Margin="16"
+                Clicked="Button_GotoSecondPage"
+                HorizontalOptions="Center">
+        </Button>
+        <!-- Place new controls here -->
+
+    </StackLayout>
+
+</ContentPage>

@@ -127,7 +127,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\CollectionView.repro1\CollectionView.repro1.csproj">
+    <ProjectReference Include="..\CV.repro\CollectionView.repro.csproj">
       <Project>{2B28C285-3197-47A7-A218-8F61308FBAB6}</Project>
       <Name>CollectionView.repro1</Name>
     </ProjectReference>

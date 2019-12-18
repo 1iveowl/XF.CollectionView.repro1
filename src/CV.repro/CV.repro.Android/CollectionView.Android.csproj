@@ -7,8 +7,8 @@
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{c9e5eea5-ca05-42a1-839b-61506e0a37df}</TemplateGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>CollectionView.repro1.Droid</RootNamespace>
-    <AssemblyName>CollectionView.repro1.Android</AssemblyName>
+    <RootNamespace>CollectionView.Droid</RootNamespace>
+    <AssemblyName>CollectionView.Android</AssemblyName>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -88,7 +88,7 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CollectionView.repro1\CollectionView.repro1.csproj">
+    <ProjectReference Include="..\CV.repro\CollectionView.repro.csproj">
       <Project>{2B28C285-3197-47A7-A218-8F61308FBAB6}</Project>
       <Name>CollectionView.repro1</Name>
     </ProjectReference>

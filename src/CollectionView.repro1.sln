@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionView.repro1.Android", "CollectionView.repro1\CollectionView.repro1.Android\CollectionView.repro1.Android.csproj", "{F05AE3DE-0A38-4CCE-8897-587ABAA2518B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionView.Android", "CV.repro\CV.repro.Android\CollectionView.Android.csproj", "{F05AE3DE-0A38-4CCE-8897-587ABAA2518B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionView.repro1.iOS", "CollectionView.repro1\CollectionView.repro1.iOS\CollectionView.repro1.iOS.csproj", "{6D7FB167-AE8C-482E-87E9-0EE61C403FD3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionView.repro1.iOS", "CV.repro\CV.repro.iOS\CollectionView.repro1.iOS.csproj", "{6D7FB167-AE8C-482E-87E9-0EE61C403FD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionView.repro1", "CollectionView.repro1\CollectionView.repro1\CollectionView.repro1.csproj", "{34656A4D-25BA-4F06-A6FE-80B704ED0723}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionView.repro1", "CV.repro\CV.repro\CollectionView.repro.csproj", "{34656A4D-25BA-4F06-A6FE-80B704ED0723}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Crossplatform", "Crossplatform", "{09BCED84-BB7A-4281-863D-CC3BDD510DF5}"
 EndProject
